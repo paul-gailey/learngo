@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Use your own package
 //
@@ -28,5 +30,9 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Println("Hello!")
+
+	greet()
+	bye()
 	// call functions of the other files here
 }
