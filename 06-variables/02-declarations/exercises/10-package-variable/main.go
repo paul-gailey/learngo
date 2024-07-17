@@ -8,6 +8,10 @@
 
 package main
 
+import "fmt"
+
+var isLiquid bool
+
 // ---------------------------------------------------------
 // EXERCISE: Package Variable
 //
@@ -18,4 +22,5 @@ package main
 // ---------------------------------------------------------
 
 func main() {
+	fmt.Println(isLiquid)
 }

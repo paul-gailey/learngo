@@ -21,8 +21,8 @@ package main
 
 func main() {
 	// First print it:
-	// fmt.Println(?)
+	// fmt.Println(firstName)
 
-	// Then declare it:
-	// var ? ?
+	// // Then declare it:
+	// var firstName string
 }
